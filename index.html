@@ -4,19 +4,41 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Abhijeet Gaikwad</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+
+  <!-- Title for SEO -->
+  <title>Abhijeet Gaikwad | Web Developer | SEO Expert | Portfolio</title>
+
+  <!-- Meta Description (important for ranking) -->
+  <meta name="description"
+    content="Abhijeet Gaikwad is a web developer with expertise in SEO. Explore his portfolio showcasing innovative web development projects and SEO strategies to boost online presence.">
+
+  <!-- Meta Keywords (useful but not as important as they once were) -->
+  <meta name="keywords"
+    content="Abhijeet Gaikwad, web developer, SEO expert, portfolio, SEO strategies, web development, digital marketing, full-stack developer">
+
+  <!-- Open Graph Tags (For better social media sharing) -->
+  <meta property="og:title" content="Abhijeet Gaikwad | Web Developer | SEO Expert">
+  <meta property="og:description"
+    content="Explore the innovative portfolio of Abhijeet Gaikwad, a skilled web developer and SEO expert. Learn how SEO strategies can enhance your digital presence.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <meta property="og:url" content="https://www.abhiigaikwad.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Tags (For better Twitter sharing) -->
+  <meta name="twitter:title" content="Abhijeet Gaikwad | Web Developer | SEO Expert">
+  <meta name="twitter:description"
+    content="Explore the innovative portfolio of Abhijeet Gaikwad, a skilled web developer and SEO expert.">
+  <meta name="twitter:image" content="assets/img/profile.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 
   <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Poppins:wght@100;300;400;500;600&display=swap"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -29,19 +51,25 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-02E6PX85LS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-02E6PX85LS');
+</script>
 </head>
 
-<body class="index-page">
 
+<body class="index-page">
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo.png" alt="">
         <h1 class="sitename">Abhijeet Gaikwad</h1>
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home<br></a></li>
@@ -52,34 +80,26 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
     </div>
   </header>
 
   <main class="main">
-
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
       <img src="assets/img/hero.jpg" alt="" data-aos="fade-in">
-
       <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up"
         data-aos-delay="100">
         <h2>I am Abhijeet Gaikwad</h2>
         <p><span class="typed"
             data-typed-items="Frontend Developer,AWS DevOps Engineer, Freelancer, Photographer"></span></p>
       </div>
-
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4">
           <div class="col-md-6">
-
             <div class="row justify-content-between gy-4">
               <div class="col-lg-5">
                 <img src="assets/img/profile.jpg" class="img-fluid" alt="">
@@ -160,20 +180,15 @@
 
     <!-- Resume Section -->
     <section id="resume" class="resume section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
         <p>Explore my journey and accomplishments across cloud infrastructure and frontend development and DevOps.</p>
       </div><!-- End Section Title -->
-
       <div class="container">
-
         <div class="row">
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Sumary</h3>
-
             <div class="resume-item pb-0">
               <h4>Abhijeet Gaikwad</h4>
               <p><em>A results-driven and versatile AWS DevOps Engineer and Frontend Developer with extensive experience
@@ -208,6 +223,7 @@
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
               <h4>AWS DevOps Engineer</h4>
+              <h5>Tata Consultancy Service (TCS)</h5>
               <h5>2023 - Present</h5>
               <p><em>Hinjewadi, Pune, India </em></p>
               <ul>
@@ -226,6 +242,7 @@
 
             <div class="resume-item">
               <h4>React JS Developer</h4>
+              <h5>Wapmebs Global Business Services Pvt Ltd</h5>
               <h5>5 Months</h5>
               <p><em>Pandharpur, India</em></p>
               <ul>
@@ -241,28 +258,20 @@
                 </li>
               </ul>
             </div><!-- Edn Resume Item -->
-
           </div>
-
         </div>
-
       </div>
-
     </section><!-- /Resume Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Services</h2>
         <p>Here is the services we can offers...</p>
       </div><!-- End Section Title -->
-
       <div class="container">
-
         <div class="row gy-4">
-
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item  position-relative">
               <div class="icon">
@@ -343,22 +352,15 @@
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
-
         </div>
-
       </div>
-
     </section><!-- /Services Section -->
 
     <!-- Stats Section -->
     <section id="stats" class="stats section accent-background">
-
       <img src="assets/img/stats.jpg" alt="" data-aos="fade-in">
-
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4">
-
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="0"
@@ -390,32 +392,25 @@
               <p>Rating </p>
             </div>
           </div><!-- End Stats Item -->
-
         </div>
-
       </div>
 
     </section><!-- /Stats Section -->
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+        <p>We have worked on below projects</p>
       </div><!-- End Section Title -->
 
       <div class="container">
-
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
           </ul><!-- End Portfolio Filters -->
-
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -458,18 +453,14 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
         <p>Please connect for any projects</p>
       </div><!-- End Section Title -->
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
           <div class="row gy-5">
-
             <div class="col-lg-4">
               <div class="info-item d-flex align-items-center">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
@@ -499,44 +490,36 @@
                 </div>
               </div>
             </div><!-- End Info Item -->
-
           </div>
         </div>
 
         <form action="contact.php" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
           <div class="row gy-4">
-  
-              <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-              </div>
-  
-              <div class="col-md-6">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-              </div>
-  
-              <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-              </div>
-  
-              <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-              </div>
-  
-              <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-  
-                  <button type="submit">Send Message</button>
-              </div>
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+              <button type="submit">Send Message</button>
+            </div>
           </div>
-      </form><!-- End Contact Form -->
+        </form><!-- End Contact Form -->
       </div>
     </section><!-- /Contact Section -->
   </main>
 
   <footer id="footer" class="footer accent-background">
-
     <div class="container">
       <div class="copyright text-center ">
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Abhijeet</strong> <span>All Rights Reserved</span></p>
@@ -547,18 +530,14 @@
         <a href="#"><i class="bi bi-instagram"></i></a>
         <a href="#"><i class="bi bi-linkedin"></i></a>
       </div>
-
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
-
   <!-- Preloader -->
   <div id="preloader"></div>
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
